@@ -19,7 +19,8 @@
     "space-in-parens":"off",
     "padded-blocks":"off",
     "no-undef":"off",
-    "quote-props":"off"
+    "quote-props":"off",
+    "eol-last":"off"
 
   }
 }
