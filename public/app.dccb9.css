@@ -1,0 +1,127 @@
+.spinner[data-v-2c67e210] {
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: sk-rotate-data-v-2c67e210 2s infinite linear;
+          animation: sk-rotate-data-v-2c67e210 2s infinite linear;
+}
+.dot1[data-v-2c67e210],
+.dot2[data-v-2c67e210] {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  border-radius: 100%;
+  -webkit-animation: sk-bounce-data-v-2c67e210 2s infinite ease-in-out;
+          animation: sk-bounce-data-v-2c67e210 2s infinite ease-in-out;
+}
+.dot2[data-v-2c67e210] {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+@-webkit-keyframes sk-rotate-data-v-2c67e210 {
+100% {
+    transform: rotate(360deg);
+}
+}
+@keyframes sk-rotate-data-v-2c67e210 {
+100% {
+    transform: rotate(360deg);
+}
+}
+@-webkit-keyframes sk-bounce-data-v-2c67e210 {
+0%,
+  100% {
+    transform: scale(0);
+}
+50% {
+    transform: scale(1);
+}
+}
+@keyframes sk-bounce-data-v-2c67e210 {
+0%,
+  100% {
+    transform: scale(0);
+}
+50% {
+    transform: scale(1);
+}
+}
+
+#box[data-v-3902dc4b] {
+  border: 1px solid red;
+}
+.red[data-v-3902dc4b] {
+  font-size: 16px;
+}
+#loading[data-v-3902dc4b] {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification[data-v-8608a98a] {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+}
+.notification .content[data-v-8608a98a] {
+  padding: 0;
+}
+.notification .btn[data-v-8608a98a] {
+  color: "#ff4081";
+  padding-left: 24px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+#tips[data-v-f88e405e] {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+}
+
+.taps-header {
+  list-style: none;
+}
+.taps-header li {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.taps-header li.active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid red ;
+}
+
+body {
+  background-image: url(/public/images/bg.2b0ce.jpeg);
+}
+
+body {
+  background-color: yellow;
+}
+
